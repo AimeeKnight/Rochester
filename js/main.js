@@ -152,7 +152,7 @@
   function getDay(){
     var registrationRate = 0;
     var today = new Date();
-    var earlyBird = new Date(2014, 6, 8);
+    var earlyBird = new Date(2014, 5, 8);
     if (today <= earlyBird){
       registrationRate = 90;
     }else{
